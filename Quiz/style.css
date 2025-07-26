@@ -1,0 +1,24 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient(to right, black, rgb(25, 0, 255));
+    margin: 20px;
+    padding: 20px;
+    color: aqua;
+    font-weight: bold;
+
+}
+h1{
+    text-align: center;
+
+}
+#pergunta1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+}
+button{
+    font-weight: bold;
+    height: 50px;
+    border-radius: 15px;
+}
