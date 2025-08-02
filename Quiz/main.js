@@ -34,3 +34,17 @@ function vperg3(botaoClicado, opcaoSelecionada){
         document.getElementById('resp3').innerHTML="❌ops errou!"
     }
 }
+function resetarResposta() {
+            // Remove a seleção de todos os botões
+            document.querySelectorAll('#pergunta1 button').forEach(btn => {
+                btn.style.backgroundColor = '#f0f0f0';
+                btn.disabled = false;
+            });
+            
+            // Limpa a mensagem de resposta
+            document.getElementById('resp1', 'resp2', 'resp3').textContent = '';
+            document.getElementById('resp1', 'resp2', 'resp3').className = '';
+            
+            respostaSelecionada = null;
+        }
+
