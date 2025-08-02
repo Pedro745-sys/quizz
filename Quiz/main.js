@@ -10,8 +10,8 @@ function vperg1(botaoClicado, opcaoSelecionada){
         document.getElementById('resp1').innerHTML="❌ops errou!"
     }
 }
-function vperg2(botaoClicado2,opcaoSelecionada2){
-    if(opcaoSelecionada2 == b2){
+function vperg2(botaoClicado,opcaoSelecionada){
+    if(opcaoSelecionada == 'b2'){
         var respCerta = document.getElementById('b2');
         respCerta.style.backgroundColor = "green";
         document.getElementById('resp2').innerHTML = "✅Parabéns você acertou!"
@@ -20,5 +20,17 @@ function vperg2(botaoClicado2,opcaoSelecionada2){
         respCerta.style.backgroundColor = "green";
         botaoClicado.style.backgroundColor = "red";
         document.getElementById('resp2').innerHTML="❌ops errou!"
+    }
+}
+function vperg3(botaoClicado, opcaoSelecionada){
+    if(opcaoSelecionada == 'a3'){
+        var respCerta = document.getElementById('a3');
+        respCerta.style.backgroundColor = "green";
+        document.getElementById('resp3').innerHTML= "✅Parabéns você acertou!"
+    }else{
+        var respCerta = document.getElementById('a3');
+        respCerta.style.backgroundColor = "green";
+        botaoClicado.style.backgroundColor = "red";
+        document.getElementById('resp3').innerHTML="❌ops errou!"
     }
 }
