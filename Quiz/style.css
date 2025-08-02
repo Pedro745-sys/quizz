@@ -11,7 +11,7 @@ h1{
     text-align: center;
 
 }
-#pergunta1{
+#pergunta1, #pergunta2, #pergunta3{
     display: flex;
     flex-direction: column;
     gap: 10px;
